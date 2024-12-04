@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://github.com/jesishen/339finalproject/blob/main/images/background.jpg);
+    background-image: url('https://github.com/jesishen/339finalproject/blob/main/images/background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
