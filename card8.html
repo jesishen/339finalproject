@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tarot Card 8</title>
+</head>
+<body>
+    <div class="card-container">
+        <h2 class="card-name">The Fool</h2>
+        <div class="card">
+            <img src="images/card8-front.jpg" alt="The Fool" class="card-image">
+        </div>
+        <div class="card-info">
+            <p class="card-description">
+                The Fool symbolizes new beginnings and boundless potential, urging you to take a leap of faith and embrace the unknown with optimism and trust.
+            </p>
+            <blockquote class="card-quote">
+                "Take the leap, for every great journey begins with a single step into the unknown."
+            </blockquote>
+            <h3 class="card-name">Career</h3>
+            <p class="card-description">
+                In your career, The Fool signifies a fresh start or a bold new direction. It encourages you to take risks and embrace opportunities, even if they seem uncertain.
+                This is a time to follow your intuition and trust that the right path will unfold as you take the first step. You may be faced with a decision that requires courage, but <em>don’t be afraid to leap into the unknown</em>.
+                The Fool reminds you that growth comes from embracing new experiences and stepping out of your comfort zone. Opportunities for creativity and personal growth lie ahead.
+            <h3 class="card-name">Love</h3>
+            <p class="card-description">
+                In love, The Fool calls for an open heart and a willingness to dive in without fear. Like a wind that carries you forward, your connection will be filled with excitement and possibility.
+                Whether you're in a relationship or seeking love, don’t be afraid to take chances and explore new avenues of connection. <em>Trust in the process, even if it feels unpredictable.</em> Sometimes, love thrives on spontaneity and unexpected turns.
+            </p>
+            <h3 class="card-name">Finance</h3>
+            <p class="card-description">
+                When it comes to finances, The Fool encourages you to take calculated risks, knowing that the right decisions will bring rewards. <em>Be willing to follow your instincts and venture into new ventures with confidence.</em>
+                There’s potential in unexpected places, and your ability to adapt quickly will serve you well. Don’t be afraid to move swiftly in your decisions, but remember, the wind can be unpredictable so use discernment to ensure your choices lead to growth.
+            </p>
+        </div>
+        <a href="index.html" class="return-btn">Choose Another Card</a>
+    </div>
+    <script src = "js/tarot.js"></script>
+
+    <footer>
+        <p>© Copyrights <span id="year"></span> by Jessica Shen. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+</body>
