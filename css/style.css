@@ -135,6 +135,12 @@ p {
     transform: rotateY(0deg);
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .card {
+        transition: none;
+    }
+}
+
 footer {
     font-size: 0.8em;
     color: #bebebe;
