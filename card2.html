@@ -10,48 +10,62 @@
     <title>Tarot Card 2</title>
 </head>
 <body>
-    <div class="card-container">
-        <h1>And the Tarot Cards Say...</h1>
-        <h2 class="card-name">The High Priestess</h2>
-        <div class="card">
-            <img src="images/card2-front.jpg" alt="The High Priestess" class="card-image">
+
+    <main>
+        <div class="card-container">
+            <h1>And the Tarot Cards Say...</h1>
+            <h2>The High Priestess</h2>
+
+            <div class="card">
+                <img src="images/card2-front.jpg" alt="The High Priestess" class="card-image">
+            </div>
+
+            <h3>Your Fortune:</h3>
+
+            <div>
+                <p>
+                    The High Priestess represents intuition, wisdom, and hidden knowledge. She guides you to trust your inner voice and seek deeper truths.
+                </p>
+
+                <blockquote class="card-quote">
+                    "Trust your inner guidance, for it whispers the wisdom you need to move forward."
+                </blockquote>
+
+                <h3>Career</h3>
+                <p>
+                    In your career, The High Priestess encourages introspection and patience. Like Sage, your calm presence in challenging situations is key to your success. It’s a time to trust your instincts
+                    and make decisions that align with your true self. Take a step back to assess the bigger picture, and <em>allow your inner wisdom to guide you toward opportunities that resonate with your values</em>.
+                    Growth comes quietly, but the path will be clear if you trust yourself.
+                </p>
+
+                <h3>Love</h3>
+                <p>
+                    In matters of love, The High Priestess calls for patience and understanding. Whether you’re in a relationship or seeking one, <em>this is a time to deepen emotional bonds and trust your intuition</em>.
+                    Your inner wisdom will help you navigate any uncertainty. If you’re in a partnership, expect a quiet but significant period of growth. For those looking for love, be open and trust that
+                    the right connection will arrive when the time is right, bringing peace and understanding into your life.
+                </p>
+
+                <h3>Finance</h3>
+                <p>
+                    When it comes to finances, The High Priestess advises caution and patience. Not all information is immediately visible, so avoid rushing into major financial decisions. 
+                    <em>Take time to assess hidden factors</em> that may affect your financial situation. Use your intuition to guide your financial planning, as unseen opportunities may reveal themselves in time.
+                    This is a period where careful observation and reflection will yield better results than impulsive action.
+                </p>
+            </div>
+
+            <a href="index.html" class="return-btn">Choose Another Card</a>
         </div>
-        <h3>Your Fortune:</h3>
-        <div class="card-info">
-            <p class="card-description">
-                The High Priestess represents intuition, wisdom, and hidden knowledge. She guides you to trust your inner voice and seek deeper truths.
-            </p>
-            <blockquote class="card-quote">
-                "Trust your inner guidance, for it whispers the wisdom you need to move forward."
-            </blockquote>
-            <h3 class="card-name">Career</h3>
-            <p class="card-description">
-                In your career, The High Priestess encourages introspection and patience. Like Sage, your calm presence in challenging situations is key to your success. It’s a time to trust your instincts
-                and make decisions that align with your true self. Take a step back to assess the bigger picture, and <em>allow your inner wisdom to guide you toward opportunities that resonate with your values</em>.
-                Growth comes quietly, but the path will be clear if you trust yourself.
-            </p>
-            <h3 class="card-name">Love</h3>
-            <p class="card-description">
-                In matters of love, The High Priestess calls for patience and understanding. Whether you’re in a relationship or seeking one, <em>this is a time to deepen emotional bonds and trust your intuition</em>.
-                Your inner wisdom will help you navigate any uncertainty. If you’re in a partnership, expect a quiet but significant period of growth. For those looking for love, be open and trust that
-                the right connection will arrive when the time is right, bringing peace and understanding into your life.
-            </p>
-            <h3 class="card-name">Finance</h3>
-            <p class="card-description">
-                In finances, The High Priestess advises reflection and patience. Trust your instincts when making financial decisions, just like you trust your intuition in critical moments.
-                This is not a time for hasty choices but for calm, measured actions. Hidden opportunities may emerge, and subtle shifts are taking place beneath the surface. <em>Seek insight and knowledge to guide your financial journey</em>,
-                ensuring stability for the future.
-            </p>
-        </div>
-        <a href="index.html" class="return-btn">Choose Another Card</a>
-    </div>
-    <script src = "js/tarot.js"></script>
+    </main>
+
+    <script src="js/tarot.js"></script>
 
     <footer>
-        <p>© Copyrights <span id="year"></span> by Jessica Shen. All rights reserved.</p>
+        <p>© Copyright <span id="year"></span> by Jessica Shen. All rights reserved.</p>
     </footer>
 
     <script>
         document.getElementById("year").innerHTML = new Date().getFullYear();
     </script>
+
 </body>
+</html>

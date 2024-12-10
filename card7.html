@@ -10,48 +10,62 @@
     <title>Tarot Card 7</title>
 </head>
 <body>
-    <div class="card-container">
-        <h1>And the Tarot Cards Say...</h1>
-        <h2 class="card-name">The Moon</h2>
-        <div class="card">
-            <img src="images/card7-front.jpg" alt="The Moon" class="card-image">
+
+    <main>
+        <div class="card-container">
+            <h1>And the Tarot Cards Say...</h1>
+            <h2>The Moon</h2>
+
+            <div class="card">
+                <img src="images/card7-front.jpg" alt="The Moon" class="card-image">
+            </div>
+
+            <h3>Your Fortune:</h3>
+
+            <div>
+                <p>
+                    The Moon symbolizes illusion, intuition, and the subconscious. It invites you to explore the mysteries within, revealing truths hidden beneath the surface.
+                </p>
+
+                <blockquote class="card-quote">
+                    “Even in the darkest night, your intuition will guide the way.”
+                </blockquote>
+
+                <h3>Career</h3>
+                <p>
+                    The Moon calls you to trust your intuition in your career, especially when navigating uncertain or unclear situations. <em>This is a time to embrace creativity and explore new possibilities</em>,
+                    even if the path ahead is not fully clear. Beware of deception or hidden agendas in the workplace, and take time to reflect before making major decisions. Your instincts will guide you toward the right opportunities, 
+                    but patience and clarity are key. Trust that what is obscured now will soon be revealed, leading to deeper understanding and growth in your professional life.
+                </p>
+
+                <h3>Love</h3>
+                <p>
+                    In love, The Moon encourages introspection and self-discovery. If you're in a relationship, be mindful of any illusions or misunderstandings that may be clouding your connection.
+                    Communication and honesty will bring clarity to any confusion. For those seeking love, trust your intuition to guide you toward the right person, but be cautious of relationships that may seem too perfect to be true.
+                    This is a time for emotional growth and understanding, where <em>what is hidden beneath the surface will emerge in due time</em>.
+                </p>
+
+                <h3>Finance</h3>
+                <p>
+                    When it comes to finances, The Moon suggests a time of uncertainty and hidden influences. Your financial situation may feel unclear, and there could be aspects you're not fully aware of.
+                    Take care to avoid risky investments or decisions driven by impulse. Instead, focus on your instincts and do thorough research before making moves. <em>While there may be moments of doubt, clarity will come with time.</em>
+                    Trust that what is hidden now will eventually be illuminated, paving the way for more informed and secure financial decisions in the future.
+                </p>
+            </div>
+
+            <a href="index.html" class="return-btn">Choose Another Card</a>
         </div>
-        <h3>Your Fortune:</h3>
-        <div class="card-info">
-            <p class="card-description">
-                The Moon symbolizes illusion, intuition, and the subconscious. It invites you to explore the mysteries within, revealing truths hidden beneath the surface.
-            </p>
-            <blockquote class="card-quote">
-                “Even in the darkest night, your intuition will guide the way.”
-            </blockquote>
-            <h3 class="card-name">Career</h3>
-            <p class="card-description">
-                The Moon calls you to trust your intuition in your career, especially when navigating uncertain or unclear situations. <em>This is a time to embrace creativity and explore new possibilities</em>,
-                even if the path ahead is not fully clear. Beware of deception or hidden agendas in the workplace, and take time to reflect before making major decisions. Your instincts will guide you toward the right opportunities,
-                but patience and clarity are key. Trust that what is obscured now will soon be revealed, leading to deeper understanding and growth in your professional life.
-            </p>
-            <h3 class="card-name">Love</h3>
-            <p class="card-description">
-                In love, The Moon encourages introspection and self-discovery. If you're in a relationship, be mindful of any illusions or misunderstandings that may be clouding your connection.
-                Communication and honesty will bring clarity to any confusion. For those seeking love, trust your intuition to guide you toward the right person, but be cautious of relationships that may seem too perfect to be true.
-                This is a time for emotional growth and understanding, where <em>what is hidden beneath the surface will emerge in due time</em>.
-            </p>
-            <h3 class="card-name">Finance</h3>
-            <p class="card-description">
-                When it comes to finances, The Moon suggests a time of uncertainty and hidden influences. Your financial situation may feel unclear, and there could be aspects you're not fully aware of.
-                Take care to avoid risky investments or decisions driven by impulse. Instead, focus on your instincts and do thorough research before making moves. <em>While there may be moments of doubt, clarity will come with time.</em>
-                Trust that what is hidden now will eventually be illuminated, paving the way for more informed and secure financial decisions in the future.
-            </p>
-        </div>
-        <a href="index.html" class="return-btn">Choose Another Card</a>
-    </div>
-    <script src = "js/tarot.js"></script>
+    </main>
+
+    <script src="js/tarot.js"></script>
 
     <footer>
-        <p>© Copyrights <span id="year"></span> by Jessica Shen. All rights reserved.</p>
+        <p>© Copyright <span id="year"></span> by Jessica Shen. All rights reserved.</p>
     </footer>
 
     <script>
         document.getElementById("year").innerHTML = new Date().getFullYear();
     </script>
+
 </body>
+</html>

@@ -10,49 +10,61 @@
     <title>Tarot Card 3</title>
 </head>
 <body>
-    <div class="card-container">
-        <h1>And the Tarot Cards Say...</h1>
-        <h2 class="card-name">The Hermit</h2>
-        <div class="card">
-            <img src="images/card3-front.jpg" alt="The Hermit" class="card-image">
+
+    <main>
+        <div class="card-container">
+            <h1>And the Tarot Cards Say...</h1>
+            <h2>The Hermit</h2>
+
+            <div class="card">
+                <img src="images/card3-front.jpg" alt="The Hermit tarot card" class="card-image">
+            </div>
+
+            <h3>Your Fortune:</h3>
+
+            <div>
+                <p>
+                    The Hermit represents solitude, introspection, and inner wisdom. A time for quiet reflection, he guides you to seek answers within.
+                </p>
+
+                <blockquote class="card-quote">
+                    "Silence is the gateway to insight; in stillness, you find your path."
+                </blockquote>
+
+                <h3>Career</h3>
+                <p>
+                    The Hermit encourages you to take a step back in your career and reflect on your professional path. This is a time for thoughtful consideration, where <em>moments of solitude will bring clarity to your goals</em>.
+                    Success is not about rushing forward, but rather aligning your actions with your true self. Trust that the answers you seek will come from deep within,
+                    as you <em>take the time to focus on what truly matters in your work life</em>. A period of introspection will provide the wisdom needed to make decisions that support long-term growth and fulfillment.                </p>
+
+                <h3>Career</h3>
+                <p>
+                    In matters of love, The Hermit calls for patience and self-reflection. Whether you're in a relationship or looking for one, this is a time to <em>slow down and gain clarity about your emotional needs</em>.
+                    If you're in a relationship, you may find that a period of quiet introspection brings you closer to your partner, deepening your connection through mutual understanding. For those seeking love,
+                    The Hermit urges you to focus on self-awareness and inner wisdom, as the right relationship will come when you are clear about what you truly want. Trust that patience will guide you to the right
+                    emotional connection when the time is right.
+                </p>
+
+                <h3>Career</h3>
+                <p>
+                    When it comes to finances, The Hermit advises a measured and reflective approach. <em>Now is not the time for hasty decisions or risky investments</em>. Take a moment to step back and assess your financial situation
+                    from a place of clarity and insight. Use this period to gather information, research your options, and make decisions based on careful reflection. The Hermit reminds you that long-term stability and success come
+                    from patience, wisdom, and thoughtful choices. Trust your inner guidance to lead you to the right financial path, even if progress seems slow at first.                </p>
+            </div>
+
+            <a href="index.html" class="return-btn">Choose Another Card</a>
         </div>
-        <h3>Your Fortune:</h3>
-        <div class="card-info">
-            <p class="card-description">
-                The Hermit represents solitude, introspection, and inner wisdom. A time for quiet reflection, he guides you to seek answers within.
-            </p>
-            <blockquote class="card-quote">
-                "Silence is the gateway to insight; in stillness, you find your path."
-            </blockquote>
-            <h3 class="card-name">Career</h3>
-            <p class="card-description">
-                The Hermit encourages you to take a step back in your career and reflect on your professional path. This is a time for thoughtful consideration, where <em>moments of solitude will bring clarity to your goals</em>.
-                Success is not about rushing forward, but rather aligning your actions with your true self. Trust that the answers you seek will come from deep within,
-                as you <em>take the time to focus on what truly matters in your work life</em>. A period of introspection will provide the wisdom needed to make decisions that support long-term growth and fulfillment.
-            </p>
-            <h3 class="card-name">Love</h3>
-            <p class="card-description">
-                In matters of love, The Hermit calls for patience and self-reflection. Whether you're in a relationship or looking for one, this is a time to <em>slow down and gain clarity about your emotional needs</em>.
-                If you're in a relationship, you may find that a period of quiet introspection brings you closer to your partner, deepening your connection through mutual understanding. For those seeking love,
-                The Hermit urges you to focus on self-awareness and inner wisdom, as the right relationship will come when you are clear about what you truly want. Trust that patience will guide you to the right
-                emotional connection when the time is right.
-            </p>
-            <h3 class="card-name">Finance</h3>
-            <p class="card-description">
-                When it comes to finances, The Hermit advises a measured and reflective approach. <em>Now is not the time for hasty decisions or risky investments</em>. Take a moment to step back and assess your financial situation
-                from a place of clarity and insight. Use this period to gather information, research your options, and make decisions based on careful reflection. The Hermit reminds you that long-term stability and success come
-                from patience, wisdom, and thoughtful choices. Trust your inner guidance to lead you to the right financial path, even if progress seems slow at first.
-            </p>
-        </div>
-        <a href="index.html" class="return-btn">Choose Another Card</a>
-    </div>
-    <script src = "js/tarot.js"></script>
+    </main>
+
+    <script src="js/tarot.js"></script>
 
     <footer>
-        <p>© Copyrights <span id="year"></span> by Jessica Shen. All rights reserved.</p>
+        <p>© Copyright <span id="year"></span> by Jessica Shen. All rights reserved.</p>
     </footer>
 
     <script>
         document.getElementById("year").innerHTML = new Date().getFullYear();
     </script>
+
 </body>
+</html>
